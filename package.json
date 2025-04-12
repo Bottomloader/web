@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Bottomloader/web#readme",
   "dependencies": {
+    "next": "^15.3.0",
     "next.js": "^1.0.3"
   }
 }
