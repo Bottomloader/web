@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const privacyButton = document.getElementById("fpp");
 
   aboutButton.addEventListener("click", function () {
-    alert("Gay bot like you");
+    window.location.href = "about.html";
   });
 
   tosButton.addEventListener("click", function () {
