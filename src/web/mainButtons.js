@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const privacyButton = document.getElementById("fpp");
 
   aboutButton.addEventListener("click", function () {
-    window.location.href = "about.html";
+    window.location.href = "/about";
   });
 
   tosButton.addEventListener("click", function () {
