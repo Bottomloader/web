@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fun Fishing</title>
 
-  <!-- Embed Thing Idk -->
   <meta property="og:title" content="Fun Fishing" />
   <meta property="og:description" content="Website for Fun Fishing, a versatile fishing bot for Discord." />
 
@@ -15,7 +14,7 @@
       margin: 0;
       padding: 0;
       background: #cae1fa;
-background: linear-gradient(158deg, rgba(202, 225, 250, 1) 1%, rgba(41, 114, 196, 1) 100%);
+      background: linear-gradient(158deg, rgba(202, 225, 250, 1) 1%, rgba(41, 114, 196, 1) 100%);
       color: #ffffff;
       min-height: 100vh;
       display: flex;
@@ -42,6 +41,27 @@ background: linear-gradient(158deg, rgba(202, 225, 250, 1) 1%, rgba(41, 114, 196
     p {
       font-size: 1.2rem;
     }
+
+    .very-silly-buttons-fr {
+      margin-top: 20px;
+    }
+
+    .sillyButtons {
+      background-color: rgba(0, 50, 100, 1);
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, opacity 0.3s ease;
+    }
+
+    .sillyButtons:hover {
+      background-color: transparent;
+      opacity: 0.7; 
+    }
   </style>
 </head>
 <body>
@@ -51,6 +71,12 @@ background: linear-gradient(158deg, rgba(202, 225, 250, 1) 1%, rgba(41, 114, 196
 
   <main>
     <p>Hello! Welcome to the official website of Fun Fishing. You'll be able to learn everything about the bot below!</p>
+
+    <div class="very-silly-buttons-fr">
+      <button id="fab" class="sillyButtons">About</button>
+      <button id="ftos" class="sillyButtons">Terms of Service</button>
+      <button id="fpp" class="sillyButtons">Privacy Policy</button>
+    </div>
   </main>
 
   <footer>
