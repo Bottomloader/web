@@ -82,6 +82,15 @@
   <footer>
     <p>&copy; 2024-2025 Fun Fishing. All rights reserved.</p>
   </footer>
-<script src="mainButtons.js"></script>
+
+  <script>
+    window.onload = function() {
+      const isLoggedIn = localStorage.getItem("loggedIn");
+      if (!isLoggedIn) {
+        window.location.href = "/login";
+        return;
+      }
+    };
+  </script>
 </body>
 </html>
